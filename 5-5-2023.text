@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Web Page</title>
+</head>
+
+<body>
+    <!-- 
+    Elements<br> Heading and its types h1-h6 -->
+
+    <!-- <br><br> -->
+
+    <!-- paragraph -->
+
+    <!-- style background-color, color, font-size, font-family, text-align -->
+    <!-- <h1 style="color: red;">1st Heading </h1>
+    <p style="font-size: 25px;">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. Deserunt, at.</p>
+    <h2>2nd Heading</h2>
+    <h3 style="text-align: center;">3rd Heading</h3>
+    <h4>4th Heading</h4>
+    <h5>5th Heading</h5>
+    <h6>6th Heading</h6> -->
+
+
+
+    <!-- text formatting -->
+
+    <!-- <p>Lorem ipsum <strong>dolor</strong> sit amet <b>adipisicing elit.</b> Rerum, ratione.</p>
+
+    <p>Lorem <i>ipsum</i> dolor sit <em>amet.</em> </p>
+
+    <p>Lorem <small>dolor sit</small> amet.</p>
+
+    <p>Lorem ipsum <mark>dolor sit amet.</mark></p>
+
+    <p>Lorem ipsum <del>dolor</del> sit amet.</p>
+
+    <p>10<sub>2</sub></p>
+
+    <p>10<sup>2</sup></p> -->
+
+
+    <!-- comments -->
+    <!-- ctrl+? -->
+
+    <!-- color -->
+
+    <!-- RGB(red green blue) HEX, HSL, rgba -->
+
+    <!-- <h1 style="background-color: rgb(255,0,0);">RGB(255,0,0)</h1>
+    <h1 style="background-color: rgb(0,255,0);">RGB(0,255,0)</h1>
+    <h1 style="background-color: rgb(0,0,255);">RGB(0,0,255)</h1>
+    <h1 style="background-color: rgb(238,130,238);">RGB(238,130,238)</h1>
+    <h1 style="background-color: rgb(100,100,100);">RGB(238,130,238)</h1> -->
+
+
+    <!-- alpha 0-1 -->
+    <!-- <h1 style="background-color: rgba(255,0,0,1);">RGB(255,0,0,0.2)</h1> -->
+
+    <!-- HEX -->
+    <!-- <h1 style="background-color: #ff0000;">HEX</h1>
+    <h1 style="background-color: #5d6061;">HEX</h1>
+    <h1 style="background-color: #ffa500;">HEX</h1>
+    <h1 style="background-color: #404040;">HEX</h1> -->
+
+    <!-- HSL -->
+    <!-- Hue, saturation, lightness -->
+    <!-- <h1 style="background-color:hsl(0,100%,50%) ;">HSL</h1>
+    <h1 style="background-color:hsl(240,100%,50%) ;">HSL</h1>
+    <h1 style="background-color:hsl(39,100%,50%) ;">HSL</h1> -->
+
+
+    <!-- link -->
+    <!-- ancher tag -->
+    <!-- <a href="link.html" target="_blank"> -->
+    <!-- <strong style="font-size: 50px;">Goolge</strong> -->
+    <!-- image tag -->
+
+    <!-- </a> -->
+
+    <!-- <style>
+        body {
+            background-image: url('1.png');
+            background-repeat: no-repeat;
+        }
+    </style> -->
+
+
+    <!-- <picture>
+        <source media="(min-width:650px)" srcset="1.png">
+        <img src="1.png" alt="">
+    </picture> -->
+
+
+
+    <!-- table -->
+
+    <!-- <style>
+        table,
+        th,
+        td {
+            border: 1px solid #96D4D4;
+            border-collapse: collapse;
+            /* border-radius: 10px; */
+        }
+    </style>
+    <table> -->
+    <!--table row-->
+    <!-- <tr> -->
+    <!-- table head -->
+    <!-- <th>Company Name</th>
+    <td>Meta System</td>
+    </tr>
+    <tr> -->
+    <!-- table data -->
+    <!-- <th>Company contact</th>
+    <td>9203433434343</td>
+
+    </tr>
+    <tr> -->
+    <!-- table data -->
+    <!-- <th>Country</th>
+    <td>Pakistan</td>
+    </tr>
+    </table> -->
+
+
+    <!-- list -->
+    <!-- order list & unorder list -->
+    <ul style="list-style-type: disc;">
+        <li>Languages</li>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>BootStrap</li>
+        </ul>
+        <li>Books</li>
+        <li>Movies</li>
+        <li>Sports</li>
+    </ul>
+
+
+    <ol>
+        <li>Books</li>
+        <li>Movies</li>
+        <li>Sports</li>
+    </ol>
+    <dl>
+        <!-- descrption list title -->
+        <dt>HTML</dt>
+        <!-- description list data -->
+        <dd>Hyper Text Markup Language</dd>
+    </dl>
+</body>
+
+</html>
