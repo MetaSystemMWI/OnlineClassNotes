@@ -1,0 +1,143 @@
+/* single selector using */
+
+
+/* #demo {
+    color: blue;
+}
+
+.demo1 {
+    color: red;
+}
+
+p {
+    color: green;
+} */
+
+
+/* * universal selector */
+
+
+/* * {
+    color: red;
+} */
+
+
+/* grouping selector */
+
+
+/* p,
+h1 {
+    color: red;
+} */
+
+
+/* #demo,
+.demo1 {
+    color: green;
+} */
+
+
+/* comments hello world*/
+
+
+/* color, background-color, text-color, border-color, RGB, HEX< HSL, RGBA, HSLA */
+
+
+/* h1 {
+    color: red;
+    /*alpha: 0-1 */
+
+
+/* background-color: rgb(255, 99, 71); */
+
+
+/* background-color: rgba(255, 99, 71, 0.2); */
+
+
+/* background-color: #ff6347; */
+
+
+/* background-color: hsl(9, 100%, 64%); */
+
+
+/* background-color: hsla(9, 100%, 64%, 0.3);
+border: 3px solid;
+border-color: blue;
+
+}
+*/
+
+
+/* color, image, repeat, attachment, position, */
+
+
+/* div { */
+
+
+/* rga, hex, hsl, rgba, hsla */
+
+
+/* background-color: bisque;
+} */
+
+
+/* div {
+    color: white;
+    background-image: url('Images/2.jpeg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+} */
+
+
+/* border-style
+dotted, dashed, solid, double, groove, ridge,
+inset, outset, none, hidden */
+
+p {
+    /* border-style: dotted; */
+    /* border-style: dashed; */
+    /* border-style: double; */
+    /* name, HEX: #ff0000, HSl: hue, saturation, lightness, 
+    RGB: red green and blue, rgba red green blue and alpha, 
+    hsla: alpha  */
+    /* border-color: green; */
+    /* border-color: red green blue yellow; */
+    /* border-width: 5px 20px 30px 40px; */
+    /* border-width: 5px; */
+    /* 5px top 20px left 30px bottom 40px right */
+    /* border-top: dotted;
+    border-bottom: dashed;
+    border-left: solid;
+    border-right: double;
+
+    border-top-width: 5px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+
+    border-left-color: red;
+    border-right-color: green;
+    border-top-color: blue;
+    border-bottom-color: yellow */
+    /* border: 5px solid red; */
+    /* border-left: 5px dotted red;
+    border-right: 5px dashed blue;
+    border-top: 5px solid green;
+    border-bottom: 5px double yellow; */
+    border: 3px solid green;
+    /* border-end-end-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px; */
+    border-radius: 5px;
+    /* top, bottom, right, left */
+    /* margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px; */
+    /* margin: 25px 50px 75px 100px; */
+    /* margin: auto; */
+    /* collapse */
+    margin: 20px 0 0 0;
+}
