@@ -1,23 +1,40 @@
-input[type=text] {
-    width: 130px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 6px;
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
     font-size: 16px;
-    background-color: white;
-    background-image: url("2.jpeg");
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    transition: width 0.4s ease-in-out;
-    /* padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
     border: none;
-    background-color: #3CBC8D;
-    color: white; */
 }
 
-input[type=text]:focus {
-    width: 30%;
+.dropdwon {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdwon-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdwon-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdwon-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdwon:hover .dropdwon-content {
+    display: block;
+}
+
+.dropdwon:hover .dropbtn {
+    background-color: #3e8e41;
 }
