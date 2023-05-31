@@ -1,1 +1,93 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Drop Down Menu Bar</title>
+</head>
+
+<body>
+
+    <div class="dropdwon">
+        <buttun class="dropbtn">DrowpDown</buttun>
+        <div class="dropdwon-content">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+    </div>
+    <!-- <ul>
+        <li>
+            <a href="#home" class="active">Home</a>
+        </li>
+        <li>
+            <a href="#news">News</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+        <li>
+            <a href="#about">About</a>
+        </li>
+    </ul>
+    <div>
+        <h1>This is example of veritcal menu bar</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa cum nisi id aliquam adipisci iusto tempore dolor maxime ad, quia in eius necessitatibus totam quibusdam quos corporis nostrum recusandae similique ut consectetur cumque. Illum fugiat
+            facilis repudiandae quaerat, praesentium sunt in quidem minus. Provident sit molestias itaque reprehenderit iure accusamus!
+        </p>
+    </div> -->
+</body>
+
+</html>
+
+
+
+css
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdwon {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdwon-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdwon-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdwon-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdwon:hover .dropdwon-content {
+    display: block;
+}
+
+.dropdwon:hover .dropbtn {
+    background-color: #3e8e41;
+}
