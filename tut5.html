@@ -4,65 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <title>tut-5</title>
+    <title>Document</title>
 </head>
+
+<!-- <body onafterprint="myFunction()"> -->
 
 <body>
 
-    <div class="container">
-        <h1>Example<span class="badge bg-primary">New</span></h1>
-        <h1>Example<span class="badge bg-primary rounded-pill">New</span></h1>
+    <p id="demo"></p>
+    <!-- <h3>Hello world</h3>
+    <script>
+        function myFunction() {
+            alert("This document is now being printed");
+        }
+    </script> -->
 
 
-        <br><br>
-        <button type="button" class="btn btn-primary">
-            Message <span class="badge bg-danger">4</span>
-        </button>
+    <!-- <script>
+        let text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, repellat.";
+        document.getElementById("demo").innerHTML = text;
+    </script> -->
 
-        <button type="button" class="btn btn-danger">
-            Notification <span class="badge bg-dark">7</span>
-        </button>
-    </div>
-    <br><br>
-    <div class="progress">
-        <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width: 70%;">70%</div>
-    </div>
+    <!-- <script>
+        let x = "ali";
+        let y = new String("ali");
+        // document.getElementById("demo").innerHTML = typeof x + "<br>" + typeof y;
+        document.getElementById("demo").innerHTML = (x === y);
+    </script> -->
 
 
-    <br><br>
-    <div class="progress">
-        <div class="progress-bar bg-success" style="width: 40%;">40%</div>
-        <div class="progress-bar bg-warning" style="width: 10%;">10%</div>
-        <div class="progress-bar bg-danger" style="width: 50%;">50%</div>
-    </div>
-    <br><br>
+    length, slice, substring, substr, replace, replaceall, touppercase, tolowercase, concat, trim, trimstart,trimend, padstart, padend, chartAt, charcodeat, split
 
-    <div class="spinner-border text-muted"></div>
-    <div class="spinner-border text-primary"></div>
-    <div class="spinner-border text-success"></div>
-    <div class="spinner-border text-info"></div>
-    <div class="spinner-border text-danger"></div>
+    <!-- <script>
+        let text = "This is my string";
+        let p = text.slice(-1);
+        document.getElementById("demo").innerHTML = p;
+    </script> -->
+    <!-- <script>
+        let text = "Apple, Banana, Kiwi";
+        let p = text.substring(10, 15);
+        document.getElementById("demo").innerHTML = p;
+    </script> -->
+    <!-- <script>
+        let text = "Apple, Banana, Kiwi";
+        let p = text.substr(-7);
+        document.getElementById("demo").innerHTML = p;
+    </script> -->
+    <!-- <button onclick="myFunction()">Try It!</button>
+    <script>
+        function myFunction() {
+            let text = document.getElementById("demo").innerHTML;
+            document.getElementById("demo").innerHTML =
+                text.replace("Lahore", "Mianwali");
+        }
+    </script> -->
 
 
-    <br><br>
-    <div class="spinner-grow text-muted"></div>
-    <div class="spinner-grow text-primary"></div>
-    <div class="spinner-grow text-danger"></div>
+    <!-- <script>
+        let text = "I love Cats. Cats are very easy to love.cats are very popular";
+        text = text.replaceAll("Cats", "Dogs");
+        text = text.replaceAll("cats", "dogs");
+        document.getElementById("demo").innerHTML = text;
+    </script> -->
 
 
-    <br><br>
+    <!-- <script>
+        let text = "Hello World!";
+        let p = text.toUpperCase();
+        document.getElementById("demo").innerHTML = p;
+    </script> -->
 
-    <ul class="pagination pagination-lg justify-content-start">
-        <li class="page-item disabled"><a class="page-link" href="">Perivous</a></li>
-        <li class="page-item"><a class="page-link" href=" ">1</a></li>
-        <li class="page-item active"><a class="page-link" href="">2</a></li>
-        <li class="page-item"><a class="page-link" href=" ">3</a></li>
-        <li class="page-item"><a class="page-link" href="">4</a></li>
-        <li class="page-item"><a class="page-link" href=" ">NEXT</a></li>
-    </ul>
+    <!-- <script>
+        let text = "HELLO WORLD";
+        let p = text.toLowerCase();
+        document.getElementById("demo").innerHTML = p;
+    </script> -->
 
+    <script>
+        let text = "Hello";
+        let text2 = " World!";
+        let p = text.concat(" ", text2);
+        document.getElementById("demo").innerHTML = p;
+    </script>
 </body>
 
 </html>

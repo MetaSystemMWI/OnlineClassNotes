@@ -3,80 +3,49 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <title>tut3</title>
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
+    <p id="demo"></p>
+    <!-- <script>
+        let y = "The temperature is" + myFunction(77) + "Celsius"; // y is a global variable
+        document.getElementById("demo").innerHTML = y;
+
+        function myFunction(f) {
+            let x; //local variable
+            return (5 / 9) * (f - 32);
+        }
+    </script> -->
+
+    <!-- <script>
+        const car = {
+            type: "Fiat",
+            model: "500",
+            color: "White",
+            id: 255,
+            fullDetails: function() {
+                return this.type + "" + this.model + "" + this.color + "" + this.id;
+            }
+        };
+        // let car = "Fiat";
+        document.getElementById("demo").innerHTML = car.fullDetails();
+    </script> -->
 
 
+    <button onclick="document.getElementById('demo').innerHTML=Date()">The Time is?</button>
+    <button onclick="this.innerHTML=Date()">The Time is?</button>
+    <br><br>
+    <button onclick="displayDate()">The Time is?</button>
+    <script>
+        function displayDate() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+    </script>
 
-    <button type="button" class="btn">Basic</button>
-    <button type="button" class="btn btn-primary">Basic</button>
-    <button type="button" class="btn btn-secondary">Basic</button>
-    <button type="button" class="btn btn-success">Basic</button>
-    <button type="button" class="btn btn-info">Basic</button>
-    <button type="button" class="btn btn-warning">Basic</button>
-    <button type="button" class="btn btn-danger">Basic</button>
-    <button type="reset" class="btn btn-dark">Basic</button>
-    <button type="submit" class="btn btn-light">Basic</button>
-    <button type="button" class="btn btn-link">Basic</button>
-    <br><br><br>
+    onchange, onclick, onmouseover, onmouseout, onkeydown, onload.....
 
-    <!-- outline -->
-
-    <button type="button" class="btn btn-outline-primary">Basic</button>
-    <button type="button" class="btn btn-outline-success">Basic</button>
-    <button type="button" class="btn btn-outline-secondary">Basic</button>
-    <button type="button" class="btn btn-outline-info">Basic</button>
-    <button type="button" class="btn btn-outline-warning">Basic</button>
-
-    <!-- size -->
-
-
-    <br><br><br>
-    <button type="button" class="btn btn-outline-primary btn-lg">Basic</button>
-    <button type="button" class="btn btn-outline-primary btn-sm">Basic</button>
-    <button type="button" class="btn btn-outline-primary btn-md">Basic</button>
-
-    <!-- full width button -->
-
-    <br><br><br>
-    <div class="d-grid gap-3">
-        <button type="button" class="btn btn-outline-primary btn-block active">Basic</button>
-        <button type="button" class="btn btn-outline-primary btn-block">Basic</button>
-        <button type="button" class="btn btn-outline-primary btn-block disabled">Basic</button>
-    </div>
-
-
-    <br><br><br>
-
-
-    <button class="btn btn-primary">
-        <span class="spinner-border spinner-border-sm"></span>Loading
-    </button>
-
-    <button class="btn btn-primary">
-        <span class="spinner-grow spinner-grow-sm"></span>Loading
-    </button>
-
-
-    <br><br><br>
-
-
-    <div class="btn-group">
-        <button type="button" class="btn btn-primary">Apple</button>
-        <button type="button" class="btn btn-primary">Samsung</button>
-        <div class="btn-group">
-            <button type="button" class="btn btn-primary drowpdown-toggle" data-bs-toggle="dropdown">Nokia</button>
-            <ul class="dropdown-menu">
-                <li><a href="" class="dropdown-item">Tablet</a></li>
-                <li><a href="" class="dropdown-item">Smart Phone</a></li>
-            </ul>
-        </div>
-    </div>
 </body>
 
 </html>
