@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <script>
+    function validateForm(){
+        let x = document.forms["myForm"]["fname"].value;
+        if(x == ""){
+            alert("Name must be filled out");
+            return false;
+        }else{
+            alert("if you write any things and then press submit to show error message")
+        }
+    }
+
+    </script> -->
+
+
+
+    <!-- <form action="/action.php" name="myForm" onsubmit="return validateForm()" method="post"> 
+        Name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+    </form> -->
+    <!-- <p id="p1">Hello World-1</p>
+    <p id="p2">Hello World-2</p>
+
+    <h1 id="id1">My Heading to click and change color</h1>
+    <button type="button" onclick="document.getElementById('id1').style.color='red'">Click me</button>
+<script>
+    // document.getElementById("p2").style.color="blue";
+</script> -->
+<style>
+    #container{
+        width: 400px;
+        height: 400px;
+        position: relative;
+        background: yellow;
+    }
+    #animate{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        background-color: red;
+    }
+</style>
+
+
+<p><button onclick="myMove()">Click me</button></p>
+<div id="container">
+    <div id="animate"></div>
+</div>
+   
+<script>
+function myMove(){
+    let id = null;
+    const elem = document.getElementById("animate");
+    let pos = 0;
+    clearInterval(id);
+    id = setInterval(frame, 20);
+    function frame(){
+        if(pos == 350){
+            clearInterval(id);
+        }else{
+            pos++; //increament kiya by 1 
+            elem.style.top=pos+"px";
+            elem.style.left=pos+"px";
+        }
+    }
+}
+</script>
+
+</body>
+</html>
