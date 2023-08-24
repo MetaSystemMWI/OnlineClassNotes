@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <input type="button" value="Load new Document" onclick="newDoc()">
+    <script>
+        // window.open(),
+        // window.close(),
+        // window.moveTo(),
+        // window.resizeTo(),
+        // document.getElementById("demo").innerHTML=
+        // "Browswer inner window width =" + window.innerWidth+"px<br>"+
+        // "Browswer inner window heigt =" + window.innerHeight+"px<br>";
+
+        // screens
+
+        // document.getElementById("demo").innerHTML=
+        // "Screen width is :" + screen.width;
+
+        // document.getElementById("demo").innerHTML=
+        // "Screen width is :" + screen.height;
+
+        // document.getElementById("demo").innerHTML=
+        // "Screen width is :" + screen.availHeight;
+
+        // document.getElementById("demo").innerHTML=
+        // "Screen width is :" + screen.availWidth;
+
+        // document.getElementById("demo").innerHTML=
+        // "Screen width is :" + screen.colorDepth;
+
+        // document.getElementById("demo").innerHTML=
+        // "Screen width is :" + screen.pixelDepth;
+
+
+        // location
+        // document.getElementById("demo").innerHTML=
+        // "The full URL of this page is <br>" + window.location.href;
+
+
+        // document.getElementById("demo").innerHTML=
+        // "The full URL of this page is <br>" + window.location.hostname;
+
+        // document.getElementById("demo").innerHTML=
+        // "The full URL of this page is <br>" + window.location.host;
+
+        // document.getElementById("demo").innerHTML=
+        // "The full URL of this page is <br>" + window.location.pathname;
+
+        // document.getElementById("demo").innerHTML=
+        // "The full URL of this page is <br>" + window.location.protocol;
+
+        // document.getElementById("demo").innerHTML=
+        // "The full URL of this page is <br>" + window.location.port;
+
+
+        // function newDoc(){
+        //     window.location.assign("https://www.google.com/")
+        // }
+
+
+        // histry
+
+        function goBack(){
+            window.history.back();
+        }
+
+        function goFarward(){
+            window.history.forward();
+        }
+    </script>
+    <input type="button" value="forward" onclick="goFarward()">
+</body>
+</html>
