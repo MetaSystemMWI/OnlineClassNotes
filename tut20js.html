@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <button onclick="myfun()">Try it</button>
+    <script>
+        // document.getElementById("demo").innerHTML=
+        // "navigator.cookieEnabled is" + navigator.cookieEnabled;
+        // "navigator.cookieEnabled is" + navigator.appName;
+        // "navigator.cookieEnabled is" + navigator.appCodeName;
+        // "navigator.cookieEnabled is" + navigator.appVersion;
+        // "navigator.cookieEnabled is" + navigator.userAgent;
+        // "navigator.cookieEnabled is" + navigator.platform;
+        // "navigator.cookieEnabled is" + navigator.language;
+        // "navigator.cookieEnabled is" + navigator.onLine;
+        // "navigator.cookieEnabled is" + navigator.javaEnabled;
+        // "navigator.cookieEnabled is" + navigator.product;
+function myfun(){
+    // alert("i am an alert box");
+
+    var t;
+    // if(confirm("Press a button")){
+    //     text = "You pressed Ok!";
+    // }else{
+    //     text="You pressed cancel"
+    // }
+    // document.getElementById("demo").innerHTML=text;
+
+    let p = prompt("Please enter you name");
+    if(p== null || p ==""){
+        t = "User canceled the prompt";
+        
+    }else {
+        t = "Hello" + p + "how are you tody?"
+        alert("hello\n WORLD");
+    }
+    document.getElementById("demo").innerHTML=t;
+}
+    </script>
+</body>
+</html>
